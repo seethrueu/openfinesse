@@ -1,5 +1,5 @@
 # Copyright SEETHRU GmbH.
-# Licensed under the EUPL-1.2 or later
+# Licensed under the EUPL-1.2 or later.
 
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
@@ -11,6 +11,7 @@ from datetime import datetime
 from decimal import Decimal
 from jinja2 import Template
 import logging
+
 
 Journal = None
 Party = None
